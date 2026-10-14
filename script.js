@@ -33,7 +33,11 @@ const go = i => {
     page.classList.toggle('flipped', n < current);
   });
   counter.textContent = `Página ${current + 1} de ${total}`;
+  // Troca automática: reinicia a contagem a cada mudança de página
+  clearTimeout(timer);
+  timer = setTimeout(() => go(current + 1), 2500);
 };
+let timer;
 go(0);
 
 document.getElementById('prev').onclick = () => go(current - 1);
