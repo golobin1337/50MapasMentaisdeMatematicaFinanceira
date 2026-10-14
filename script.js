@@ -1,8 +1,8 @@
 // ====== CONFIGURAÇÃO: cole aqui os seus links ======
 const LINKS = {
-  basico: '#',     // link do checkout da Oferta Básica (R$3,90)
-  completo: '#',   // link do checkout da Oferta Completa (R$13,90)
-  completoDesconto: '#', // link do checkout da Oferta Completa com desconto (R$9,90), usado no popup
+  basico: 'https://pay.wiapy.com/043I_qBrdB2g',// link do checkout da Oferta Básica (R$3,90)
+  completo: 'https://pay.wiapy.com/xAXzndQS1TxM',// link do checkout da Oferta Completa (R$13,90)
+  completoDesconto: 'https://pay.wiapy.com/vAcbl0gjpLL7',// link do checkout da Oferta Completa com desconto (R$9,90), usado no popup
   whatsapp: 'https://wa.me/5542988654609'
 };
 
